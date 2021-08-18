@@ -8,7 +8,6 @@ The spellcheker server's job is to read a sequence of words from clients. If a w
 to be spelled correctly. If not, it's considered to be misspelled.
 
 Server main task:
-
     - Take in commandline argument in the form ./serv port dict_name
     - If port or dict_name unspecified, use the default one
     - When server start, it load in the dictionary to an array
@@ -17,7 +16,6 @@ Server main task:
     - create another seperate thread to handle writting to logfile
 
 Worker task:
-
     - Deque the socket descriptor from the queue
     - Beginning read in words from user clients
     - check if match, echo the result back to both server and clients
