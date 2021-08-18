@@ -21,10 +21,14 @@ Server main task:
  - create another seperate thread to handle writting to logfile
 
 Worker task:
-    - Deque the socket descriptor from the queue
-    - Beginning read in words from user clients
-    - check if match, echo the result back to both server and clients
-    - push the results to the logqueue
+
+- Deque the socket descriptor from the queue
+  
+- Beginning read in words from user clients
+
+- check if match, echo the result back to both server and clients
+
+- push the results to the logqueue
 
 Code structure:
 #queue.c:
