@@ -1,8 +1,9 @@
 # Network-Spellchecker
 
 This project provides us chance to build a network spellchecker with the aim of gaining practical experience with:
-    - Multithreaded Programming and the Synchronization problem
-    - TCP and Socket Programming
+
+- Multithreaded Programming and the Synchronization problem
+- TCP and Socket Programming
 
 The spellcheker server's job is to read a sequence of words from clients. If a word is in the dictionary, it's considered
 to be spelled correctly. If not, it's considered to be misspelled.
