@@ -38,6 +38,7 @@ Similar to work queue, but contains the message results
 -Do all the jobs of server and workers described above
 
 How to execute the project:
+
 -Press make to compile the project
 
 -use the commandline ./serv port dictionary to create listening server
