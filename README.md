@@ -39,7 +39,9 @@ Similar to work queue, but contains the message results
 
 How to execute the project:
 -Press make to compile the project
+
 -use the commandline ./serv port dictionary to create listening server
+
 -open another terminal: enter telnet 127.0.0.1 port to test the connection
 
 Result:
